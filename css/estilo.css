@@ -127,61 +127,19 @@ input[type=submit] {
     padding-bottom: 2%;
 }
 
-/*Productos-flexbox*/
+/*Productos-nuevo bootstrapeado*/
 
-.listadoProd {
-
-
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-
-.listadoProd p {
-    text-decoration: solid;
-    font-size: xx-large;
-    text-align: center;
+h2 {
     font-family: 'Oswald', sans-serif;
-
+    font-weight: bolder;
+    
 }
 
-.rifles {
-    width: auto;
-    height: auto;
-    padding: 5px;
-    margin: 5px;
-    background-color: #9FD8CB;
-    border-radius: 10px;
-}
-
-.escopetas {
-    width: auto;
-    height: auto;
-    padding: 5px;
-    margin: 5px;
-    background-color: #9FD8CB;
-    border-radius: 10px;
-}
-
-.pistolas {
-    width: auto;
-    height: auto;
-    padding: 5px;
-    margin: 5px;
-    background-color: #9FD8CB;
-    border-radius: 10px;
-}
-
-.municiones {
-    width: auto;
-    height: auto;
-    padding: 5px;
-    margin: 5px;
-    background-color: #9FD8CB;
-    border-radius: 10px;
+.productos p {
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    background-color: #FEFFB7;
+    border-radius: 4px;
 }
 
 img {
