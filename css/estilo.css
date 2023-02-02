@@ -14,16 +14,16 @@ body {
     font-size: xx-large;
     background-color: #C9C5BA;
     padding-top: 10px;
-    
+
 }
 
 .navbar-nav a:hover {
     color: #DE3C4B;
-    text-decoration-line:underline;
+    text-decoration-line: underline;
 }
 
 .navbar-nav {
-    font-size:larger;
+    font-size: larger;
     font-weight: bold;
     padding-left: 10px;
 }
@@ -34,7 +34,7 @@ a {
     text-transform: uppercase;
     font-size: large;
     font-weight: bold;
-    
+
 }
 
 /* Carousel nuevo y main */
@@ -55,7 +55,7 @@ main img {
 /*FOOTER*/
 
 .footer {
-    border-top: 1px black dotted;
+    border-top: 1px black solid;
     text-align: center;
     background-color: #C9C5BA;
     position: absolute;
@@ -67,25 +67,28 @@ main img {
 }
 
 .textoFoot {
-    border-bottom: 1px dotted black;
-    margin: 10px;
+    border-bottom: 1px solid black;
+    background-color: white;
+    width: 100%;
 }
 
 .footer ul li a {
     color: #5C7AFF;
-
+    text-transform: lowercase
 }
 
-.instagram {
-
+.instagram i {
+    font-size: x-large;
     color: #ee640e;
 }
 
-.you {
+.you i {
+    font-size: x-large;
     color: #FF0000;
 }
 
-.facebook {
+.facebook i {
+    font-size: x-large;
     color: #3b5998;
 }
 
@@ -114,9 +117,10 @@ main h2 {
     background-color: #FEFFB7;
     max-width: fit-content;
     display: inline-block;
-    
-    
+
+
 }
+
 /* .formuladrio.Div {
     display: block;
     text-align: left;
