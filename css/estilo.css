@@ -91,6 +91,32 @@ main img {
 
 /* FORMULARIO */
 
+main h2 {
+    text-align: left;
+}
+
+.form {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-control {
+    background-color: #FEFFB7;
+}
+
+.telefonos {
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    border: black 1px dotted;
+    border-radius: 5px;
+    background-color: #FEFFB7;
+    max-width: fit-content;
+    display: inline-block;
+    
+    
+}
 /* .formuladrio.Div {
     display: block;
     text-align: left;
