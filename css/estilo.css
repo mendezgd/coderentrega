@@ -61,15 +61,6 @@ main img {
     padding: 0%;
 }
 
-.footer ul li {
-    text-decoration: none;
-    font-size: medium;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    list-style: none;
-
-}
-
 .textoFoot {
     border-bottom: 1px dotted black;
     margin: 10px;
@@ -77,6 +68,19 @@ main img {
 
 .footer ul li a {
     color: #5C7AFF;
+    
+}
+
+.instagram {
+
+    color: #ee640e;
+}
+.you {
+    color: #FF0000;
+}
+
+.facebook {
+    color: #3b5998;
 }
 
 /* FORMULARIO */
